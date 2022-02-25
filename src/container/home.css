@@ -173,7 +173,11 @@
 .txt-genre {
     z-index: 4;
     top: -90px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
     position: relative;
+    font-family: 'Open Sans';
 }
 
 .title-genre {
@@ -186,7 +190,7 @@
 
 .desc-genre {
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     color: #72727d;
     margin: 0px 0px 10px 0px;
     font-family: 'Open Sans';
@@ -220,6 +224,7 @@
 .about-album {
     margin: 0px;
     font-size: 12px;
+    font-weight: 400;
     color: #72727d;
     font-family: 'Open Sans';
 }
