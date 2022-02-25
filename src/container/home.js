@@ -19,9 +19,9 @@ const Home = () => {
         return (
             <div className='container-Setup'>
                 <div className='Txt-Menu'>
-                    <p style={{color:'#fff', backgroundColor: '#15151e'}}>HOME</p>
-                    <p>BROWSE</p>
-                    <p>HEAR THIS</p>
+                    <a href='#'><p style={{color:'#fff', backgroundColor: '#15151e'}}>HOME</p></a>
+                    <a href='#'><p>BROWSE</p></a>
+                    <a href='#'><p>HEAR THIS</p></a>
                 </div>
                 <div className='line'>
                     <hr />
@@ -31,15 +31,15 @@ const Home = () => {
                     <div>
                         <div className='view-icon'>
                             <SVGIcon.IconFavouriteTracks />
-                            <p>Favourite Tracks</p>
+                            <a href='#'><p>Favourite Tracks</p></a>
                         </div>
                         <div className='view-icon'>
                             <SVGIcon.IconPlaylist />
-                            <p>Playlist</p>
+                            <a href='#'><p>Playlist</p></a>
                         </div>
                         <div className='view-icon'>
                             <SVGIcon.IconAlbums />
-                            <p>Albums</p>
+                            <a href='#'><p>Albums</p></a>
                         </div>
                     </div>
                 </div>
